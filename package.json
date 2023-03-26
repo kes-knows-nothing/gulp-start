@@ -1,0 +1,49 @@
+{
+  "name": "gulp-project",
+  "version": "1.0.0",
+  "description": "Learn Gulf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kes-knows-nothing/gulp-start.git"
+  },
+  "author": "Kes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kes-knows-nothing/gulp-start/issues"
+  },
+  "homepage": "https://github.com/kes-knows-nothing/gulp-start/#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.21.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^8.0.0",
+    "sass": "^1.60.0"
+  },
+  "dependencies": {
+    "babelify": "^10.0.0",
+    "del": "^4.1.1",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-bro": "^2.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-image": "^6.2.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webserver": "^0.9.1",
+    "uglifyify": "^5.0.2"
+  },
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions"
+  ]
+}

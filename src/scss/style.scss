@@ -1,0 +1,29 @@
+@import "_reset";
+@import "_variables";
+
+body {
+ font-family:'Courier New', Courier, monospace;
+ background-color: $red;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ color: white;
+ font-size: 8px;
+ height: 100vh;
+}
+
+img {
+  width: 400px;
+}
+
+footer {
+  display: none;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+}
+
